@@ -1,0 +1,84 @@
+/* pixels or rem or viewport */
+*{
+    background-color: black;
+}
+.Employees{
+    padding: 30px;
+}
+.inputDetails{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap:30px;
+    justify-content: space-around;
+}
+
+.inputDetails>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDetails>div>input{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+}
+
+.inputDetails>div>input:focus{
+    outline: none;
+    background-color: black;
+}
+
+.inputDetails>div>label{
+    color: white;
+}
+.newEmployees>h3{
+    color: white;
+}
+.addUser{
+    margin-top: 14px;
+}
+.addUser>button{
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+.viewFlex{
+    display: flex;
+    gap:30px;
+    justify-items: center;
+}
+.viewFlex>.info{
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    justify-self: center;
+}
+.viewContainer{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    color: white;
+}
+
+.deleteButton{
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+
+
+.ErrorMessage{
+    color: red;
+}
+
+.SuccessMessage{
+    color: green;
+}
+
